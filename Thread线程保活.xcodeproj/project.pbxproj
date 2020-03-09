@@ -14,6 +14,8 @@
 		8C6B93DA22AEA2A80067D57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B93D822AEA2A80067D57B /* LaunchScreen.storyboard */; };
 		8C6B93DD22AEA2A80067D57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B93DC22AEA2A80067D57B /* main.m */; };
 		8C6B93E722AEA2A80067D57B /* Thread____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B93E622AEA2A80067D57B /* Thread____UITests.m */; };
+		8C6B93F922AF39AD0067D57B /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B93F822AF39AD0067D57B /* SubViewController.m */; };
+		8C6B93FC22AF409A0067D57B /* ThreadOtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B93FB22AF409A0067D57B /* ThreadOtherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,12 @@
 		8C6B93E222AEA2A80067D57B /* Thread线程保活UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thread线程保活UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6B93E622AEA2A80067D57B /* Thread____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Thread____UITests.m"; sourceTree = "<group>"; };
 		8C6B93E822AEA2A80067D57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6B93F422AEA6010067D57B /* ThreadClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadClass.h; sourceTree = "<group>"; };
+		8C6B93F522AEA6010067D57B /* ThreadClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadClass.m; sourceTree = "<group>"; };
+		8C6B93F722AF39AD0067D57B /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		8C6B93F822AF39AD0067D57B /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		8C6B93FA22AF409A0067D57B /* ThreadOtherClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadOtherClass.h; sourceTree = "<group>"; };
+		8C6B93FB22AF409A0067D57B /* ThreadOtherClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadOtherClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,12 @@
 				8C6B93CE22AEA2A40067D57B /* AppDelegate.m */,
 				8C6B93D022AEA2A40067D57B /* ViewController.h */,
 				8C6B93D122AEA2A40067D57B /* ViewController.m */,
+				8C6B93F722AF39AD0067D57B /* SubViewController.h */,
+				8C6B93F822AF39AD0067D57B /* SubViewController.m */,
+				8C6B93F422AEA6010067D57B /* ThreadClass.h */,
+				8C6B93F522AEA6010067D57B /* ThreadClass.m */,
+				8C6B93FA22AF409A0067D57B /* ThreadOtherClass.h */,
+				8C6B93FB22AF409A0067D57B /* ThreadOtherClass.m */,
 				8C6B93D322AEA2A40067D57B /* Main.storyboard */,
 				8C6B93D622AEA2A80067D57B /* Assets.xcassets */,
 				8C6B93D822AEA2A80067D57B /* LaunchScreen.storyboard */,
@@ -203,8 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6B93F922AF39AD0067D57B /* SubViewController.m in Sources */,
 				8C6B93D222AEA2A40067D57B /* ViewController.m in Sources */,
 				8C6B93DD22AEA2A80067D57B /* main.m in Sources */,
+				8C6B93FC22AF409A0067D57B /* ThreadOtherClass.m in Sources */,
 				8C6B93CF22AEA2A40067D57B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
